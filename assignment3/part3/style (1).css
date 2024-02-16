@@ -55,6 +55,8 @@ h1 {
 h2 {
   font-size: 3em;
   letter-spacing: 1.5px;
+  outline: none;
+  text-decoration: none;
 }
 
 p,li {
@@ -63,4 +65,17 @@ p,li {
 
 p{
   text-indent: 20px;
+}
+
+a:hover, a:focus {
+  color: rgb(189, 76, 76);
+}
+
+a:link {
+  color: rgb(189, 76, 76);
+  font-weight: 900;
+}
+
+a:active {
+  color: rgb(88, 33, 33);
 }
