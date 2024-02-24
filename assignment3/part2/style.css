@@ -2,7 +2,6 @@ html {
   font-family: sans-serif;
 }
 
-/* Your CSS below here */
 div {
   width: 20rem;
   height: 15rem;
@@ -10,13 +9,26 @@ div {
   padding: 5px;
   line-height: 3rem;
   text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  
   
 
   color: white;
   font-size: 2rem;
-  text-shadow: 5px;
+  text-shadow: 2px 2px 2px #000;
 
-  background-color: rgb(215, 38, 38);
+
+  background-color: rgb(255, 0, 0);
+  /* got the linear-gradeient to look proper from this website: https://jsfiddle.net/rxjug3kj/ */
+  background: linear-gradient(to bottom right, #ff0101, rgba(255, 255, 255, 0.1),rgba(0, 0, 0, 0.2))
+  no-repeat center 0, red;
+
+  /* got the box-shadow code from this website: https://jsfiddle.net/rxjug3kj/ */
+  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.5),
+    inset -4px -4px 4px rgba(0, 0, 0, 0.4),
+    -0.4px -0.4px 3px rgba(0, 0, 0, 0.5),
+    4px 4px 10px rgba(0, 0, 0, 0.6);
 
   border: 1px solid rgb(97, 18, 18);
   border-radius: .5em;
