@@ -3,3 +3,22 @@ html {
 }
 
 /* Your CSS below here */
+div {
+  width: 20rem;
+  height: 15rem;
+  margin: 150px auto;
+  padding: 5px;
+  line-height: 3rem;
+  text-align: center;
+  
+
+  color: white;
+  font-size: 2rem;
+  text-shadow: 5px;
+
+  background-color: rgb(215, 38, 38);
+
+  border: 1px solid rgb(97, 18, 18);
+  border-radius: .5em;
+
+}
