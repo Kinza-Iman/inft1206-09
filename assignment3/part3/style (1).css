@@ -46,6 +46,14 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family:"Philosopher", sans-serif; 
+  src: url(https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+}
+
+header{
+  text-align: center;
+}
 h1 {
   font-size: 3rem;
   text-align: center;
