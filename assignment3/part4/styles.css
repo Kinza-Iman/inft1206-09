@@ -39,6 +39,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    
   }
   
   nav a {
@@ -46,6 +47,10 @@ body {
     text-decoration: none;
     padding: .5em 1em;
   }
+  article img{
+    float: left;
+    margin-right:20px;
+   }
   
   .photos {
     list-style: none;
@@ -59,6 +64,7 @@ body {
   .feature {
       width: 200px;
   }
+
 
   article{
     flex: 1;
