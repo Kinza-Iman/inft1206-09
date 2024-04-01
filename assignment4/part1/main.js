@@ -24,9 +24,9 @@ function result() {
     var yItem = randomValueFromArray(insertY);
     var zItem = randomValueFromArray(insertZ);
 
-    var newStory = newStroy.replace(":insertX:", xItem);
-    var newStory = newStroy.replace(":insertY:", yItem);
-    var newStory = newStroy.replace(":insertZ:", zItem);
+    var newStory = newStroy.replace(":insertx:", xItem);
+    var newStory = newStroy.replace(":inserty:", yItem);
+    var newStory = newStroy.replace(":insertz:", zItem);
 
 
   if(customName.value !== '') {
