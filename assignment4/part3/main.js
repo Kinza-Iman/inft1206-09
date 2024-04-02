@@ -1,8 +1,5 @@
 // set up canvas
 
-const paragraph = document.querySelector("p");
-let count = 0;
-
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
@@ -168,6 +165,8 @@ while (balls.length < 25) {
   );
 
   balls.push(ball);
+  count++;
+  paragraph.textContent = "Ball count: " + count 
 }
 
 function loop() {
