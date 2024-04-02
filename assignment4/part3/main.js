@@ -1,5 +1,8 @@
 // set up canvas
 
+const paragraph = document.querySelector("p");
+let count = 0;
+
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
@@ -139,6 +142,9 @@ class EvilCircle extends Shape {
 
             if (distance < this.size + ball.size) {
               // TODO: change the existence the ball
+              ball.exists = false;
+              count--;
+              paragraph.textContent = "ball count: " + count;
             }
         }
       }
@@ -207,6 +213,8 @@ function evilLoop() {
 
   requestAnimationFrame(loop);
 }
+
+loop();
 
 // TODO: Make the evil circle exist 
 // TODO: Add counter to count how many balls are there on the screen
